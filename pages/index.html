@@ -7,14 +7,220 @@
     <title>index</title>
   </head>
   <body>
-    <%- include("./layout/navbar") %>
-    <h1>這是首頁</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
-      eaque tenetur aperiam itaque dolores adipisci?
-    </p>
-    <%- include("./layout/footer") %>
+    <header class="header">
+      <div class="header-container ">
+        <nav class="nav">
+        <div>
+        <img class="header-logo" src="../assets/image/logo-white.png" alt="logo icon" /></div>
+        <ul class="header-navbar">
+          <li class="header-list"><a href="#">系列鏡框</a></li>
+          <li class="header-list"><a href="#">門市據點</a></li>
+          <li class="header-list"><a href="#">部落格</a></li>
+          <li class="header-list"><a href="#">常見問題</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+    <section
+      class="banner"
+      style="background-image: url(../assets/image/home-header.png)"
+    >
+      <div class="container">
+        <div class="banner-info">
+          <div class="p-12">
+          <h2 class="banner-h2">Promise-Desert 2020 早春系列</h2>
+          <h1 class="banner-h1 ">看得清，才能看得遠</h1>
+          <a class="banner-button " href="#">立即購買</a>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container">
+        <div class="info-head"><h2>用專業的心，做專業的事</h2></div>
+        <div class="info-body mt-6 pb-20">
+          <ul class="info-list">
+            <li class="info-listCard">
+              <img src="../assets/image/home-section2-1.png" alt="money icon" />
+              
+              <h3>單一價格</h3>
+              <p>無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </li>
+            <li class="info-listCard">
+              <img src="../assets/image/home-section2-2.png" alt="clock icon" />
+              <h3>20 分鐘即可取件</h3>
+              <p>
+                為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+                20 分鐘即可完成。
+              </p>
+            </li>
+            <li class="info-listCard">
+              <img src="../assets/image/home-section2-3.png" alt="heart icon" />
+              <h3>安心售後服務</h3>
+              <p>
+                我們提供長達 120
+                天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+              </p>
+            </li>
+            <li class="info-listCard">
+              <img src="../assets/image/home-sectioin2-4.png" alt="glass icon" />
+              <h3>關於鏡片</h3>
+              <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="m-12">
+      <div class="series-title"><h2>經典系列鏡框</h2></div>
+      <ul class="series-list gp-24 d-flex pb-20">
+        <li class="series-info">
+          <img src="../assets/image/home-section3-1.png" alt="girl" />
+          <h2>OPTICAL</h2>
+        </li>
+        <li class="series-info">
+          <img src="../assets/image/home-section3-2.png" alt="girl" />
+          <h2>SUNGLASSES</h2>
+        </li>
+        <li class="series-info">
+          <img src="../assets/image/home-section3-3.png" alt="old man" />
+          <h2>FUNCTIONAL</h2>
+        </li>
+      </ul>
+    </div>
+    </section>
+    <section class="design" style="background-image: url(../assets/image/index-bg.png)">
+      <div class="container">
+        <div class="m-12">
+      <div class="design-title"><h2>聯名設計鏡框</h2></div>
 
+      <div class="design-box  ">
+        <div class="design-info">
+          <img src="../assets/image/home-section4-1.png" alt="design image" />
+          <h3>DOUBLE A+</h3>  
+        </div>
+        <div>    
+          <img src="../assets/image/home-section4-2.png" alt="design image" />
+          <h3>YOUTH</h3>
+        </div>
+      </div>
+    </div>
+    </div>
+    </section>
+    <section class="recommend">
+      <div class="container">
+        <div class="m-12">   
+        <h3 class="recommend-title">顧客推薦</h3>
+        <ul class="customer">
+          <li class="customer-card">
+            <img src="../assets/image/home-section5-1.png" alt="girl-Jessy" />
+            <div class="contentbox">
+              <p class="content1">Jessy</p>
+              <p class="content2">眼鏡品質優良，下次還會想來這邊購買！</p>
+              <p class="content3">2021/06/20</p>
+            </div>
+          </li>
+          <li class="customer-card">
+            <img src="../assets/image/home-section5-2.png" alt="girl karon" />
+            <div class="contentbox">
+              <p class="content1">凱倫</p>
+              <p class="content2">
+                做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+              </p>
+              <p class="content3">2021/04/18</p>
+            </div>
+          </li>
+          <li class="customer-card">
+            <img src="../assets/image/home-section5-3.png" alt="girl-Yuyu" />
+            <div class="contentbox">
+              <p class="content1">悠悠</p>
+              <p class="content2">
+                謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+              </p>
+              <p class="content3">2020/12/25</p>
+            </div>
+          </li>
+          <li class="customer-card">
+            <img src="../assets/image/home-section5-4.png" alt="girl Kyuan" />
+            <div class="contentbox">
+              <p class="content1">Kyuan</p>
+              <p class="content2">服務很好，品質沒有任何問題，非常喜歡。</p>
+              <p class="content3">2020/10/31</p>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+    <form action="#" class="form">
+      <div class="form-container">
+        <h4>聯絡我們</h4>
+        <p>
+          我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+        </p>
+        <div class="form-box">
+          <label for="name" class="mb-2">姓名 </label
+          ><input type="text" id="name" placeholder="陳小明" />
+
+          <label for="tel" class="mt-4 mb-2">聯絡電話 </label
+          ><input type="text" id="tel" placeholder="0912-345-678" />
+
+          <label for="email" class="mt-4 mb-2">電子郵件</label
+          ><input type="text" id="email" placeholder="example@email.com" />
+
+          <label for="feedback" class="mt-4 mb-2">意見反映</label>
+          <textarea
+            none
+            name="feedback"
+            id="feedback"
+            cols="30"
+            rows="10"
+            style="resize: none"
+            placeholder="請輸入您的意見"
+          ></textarea>
+          <div class="checkbox">
+            <label for="confirm-text"><input type="checkbox" id="confirm-text" />
+            我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label
+            >
+          </div>
+        </div>
+        <div class="checkbutton"><p>確認送出</p></div>
+      </div>
+    </form>
+    <footer class="footer"
+      ><div class="footer-container">
+
+        <div class="m-12">
+        <div class="footer-top">
+          <div class="list-box">
+          <ul class="footer-info">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">系列鏡框</a></li>
+            <li><a href="#">門市據點</a></li>
+            <li><a href="#">部落格</a></li>
+            <li><a href="#">常見問題</a></li></li>
+          </ul>
+          <div class="footer-contact ">
+            <a href="tel:0800-000-000"><span class="material-symbols-outlined footer-span">call</span>0800-000-000</a>
+          <a href="mailto:glasses@business.com"><span class="material-symbols-outlined footer-span">mail
+          </span>glasses@business.com</a></div>
+        </div>
+          <ul class="footer-icon">
+            <li class="mr-32"><a href="#"><img src="../assets/image/ic-social-fb.png" alt="facebook icon"></a></li>
+            <li class="mr-32"><a href="#"><img src="../assets/image/ic_social_ig.png" alt="ig icon"></a></li>
+            <li ><a href="#"><img src="../assets/image/ic_social_line.png" alt="line icon"></a></li>
+          </ul>
+        </div>
+        <div class="footer-button"><p>Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="d-flex">
+          <li class="mr-12 ">隱私權政策</li>
+          <li>服務條款</li>
+        </ul></div>
+        
+      </div>
+        </div
+    ></footer>
     <script type="module" src="../main.js"></script>
   </body>
 </html>
