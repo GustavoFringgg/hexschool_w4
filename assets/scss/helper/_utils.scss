@@ -1,0 +1,55 @@
+.d-flex {
+  display: flex;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+/*字形*/
+.fz-36 {
+  font-size: 36px;
+}
+
+.mt-6 {
+  margin-top: 24px;
+}
+
+.mt-4 {
+  margin-top: 16px;
+}
+
+.mb-20 {
+  margin-bottom: -80px;
+}
+
+.mb-4 {
+  margin-bottom: -16px;
+}
+.mb-2 {
+  margin-bottom: 8px;
+}
+
+.mr-12 {
+  margin-right: 48px;
+}
+.mr-32 {
+  margin-right: 32px;
+}
+.pb-20 {
+  padding-bottom: 80px;
+}
+
+/*調整方位*/
+.m-12 {
+  margin: 0 -12px;
+}
+.p-12 {
+  padding: 12px;
+}
+.gp-24 {
+  gap: 24px;
+}

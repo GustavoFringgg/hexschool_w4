@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  // outline: 1px solid red;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+.container {
+  max-width: 1320px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
