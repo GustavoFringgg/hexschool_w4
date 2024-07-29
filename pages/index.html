@@ -7,12 +7,13 @@
     <title>index</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
-
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
-
-    <%- include('./layout/footer'); -%>
+    <%- include("./layout/navbar") %>
+    <h1>這是首頁</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium
+      eaque tenetur aperiam itaque dolores adipisci?
+    </p>
+    <%- include("./layout/footer") %>
 
     <script type="module" src="../main.js"></script>
   </body>
