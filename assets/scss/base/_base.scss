@@ -26,4 +26,10 @@ a {
   height: 100%;
   margin: 0 auto;
   padding: 0 12px;
+  @include pad {
+    max-width: 720px;
+  }
+  @include mobile-large {
+    max-width: 372px;
+  }
 }

@@ -1,0 +1,98 @@
+.footer {
+  background-color: #aa0601;
+  color: white;
+  &-container {
+    max-width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    @include mobile-large {
+      max-width: 372px;
+    }
+  }
+  &-info {
+    display: flex;
+    margin-bottom: 24px;
+    a {
+      padding-right: 48px;
+      &:hover {
+        color: rgb(236, 197, 197);
+      }
+    }
+    @include mobile-large {
+      display: none;
+    }
+  }
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 12px 0 12px;
+  }
+  &-span {
+    font-size: 36px !important;
+    margin-right: 20px;
+    @include mobile-large {
+      font-size: 24px !important;
+      margin-right: 10px;
+    }
+  }
+  &-icon {
+    display: flex;
+    img {
+      max-width: 48px;
+      height: auto;
+      transition: all 0.25s ease-in-out;
+      &:hover {
+        transform: scale(1.2);
+      }
+      @include mobile-large {
+        max-width: 24px;
+      }
+    }
+  }
+  &-button {
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 32px 12px;
+    @include mobile-large {
+      display: block;
+      padding-top: 24px;
+      padding-bottom: 16px;
+      ul {
+        display: block;
+        margin-top: 8px;
+      }
+      li {
+        margin-top: 8px;
+      }
+    }
+  }
+  &-contact {
+    font-size: 36px;
+    @include mobile-large {
+      font-size: 16px;
+    }
+    a {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.checkbutton {
+  background-color: #aa0601;
+  color: white;
+  max-width: 406px;
+  margin: 0 auto;
+  text-align: center;
+  &:hover {
+    background-color: #f64141;
+    cursor: pointer;
+  }
+  p {
+    padding: 16px 0;
+    font-size: 16px;
+  }
+}
