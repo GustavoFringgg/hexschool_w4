@@ -49,6 +49,11 @@
         max-width: 24px;
       }
     }
+    .mr-32 {
+      @include mobile-large {
+        margin-right: 8px;
+      }
+    }
   }
   &-button {
     border-top: 1px solid white;
