@@ -16,7 +16,24 @@
   </head>
   <body>
     <%- include('./layout/header') %>
-    <h1>srious type</h1>
+    <main>
+      <nav class="series-container">
+        <ul class="d-flex fw-medium m-12">
+          <li class="OPTICAL"><a href="#">OPTICAL</a></li>
+          <li class="SUNGLASSES"><a href="#">SUNGLASSES</a></li>
+          <li><a href="#">FUNCTIONAL</a></li>
+        </ul>
+      </nav>
+      <section class="type-image d-flex">
+        <img
+          src="../assets/image/product-header-sm-1.png"
+          alt="product.image"
+        /><img
+          src="../assets/image/product-header-sm-2.png"
+          alt="product.image"
+        />
+      </section>
+    </main>
 
     <%- include('./layout/footer') %>
     <script type="module" src="../main.js"></script>

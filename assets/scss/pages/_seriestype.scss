@@ -1,0 +1,42 @@
+.series-container {
+  max-width: 1320px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+  li {
+    font-size: 32px;
+    width: 100%;
+    text-align: center;
+    border-right: 1px solid #dcdcdc;
+    border-left: 1px solid #dcdcdc;
+    &:nth-child(2) > a:hover,
+    &:nth-child(3) > a:hover {
+      border-bottom: 8px solid #aa0601;
+    }
+    a {
+      color: black;
+      width: 100%;
+      display: block;
+      padding-top: 24px;
+      padding-bottom: 16px;
+    }
+    @include pad {
+      font-size: 24px;
+      a {
+        padding: 16px 0;
+      }
+    }
+    @include mobile-large {
+      font-size: 16px;
+    }
+  }
+}
+.OPTICAL {
+  border-bottom: 8px solid #aa0601;
+}
+
+.type-image img {
+  min-width: 50%;
+  height: 296px;
+  object-fit: cover;
+}
