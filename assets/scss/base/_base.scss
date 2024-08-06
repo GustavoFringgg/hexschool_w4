@@ -30,6 +30,6 @@ a {
     max-width: 720px;
   }
   @include mobile-large {
-    max-width: 372px;
+    min-width: 372px;
   }
 }

@@ -40,3 +40,90 @@
   height: 296px;
   object-fit: cover;
 }
+
+.series-types {
+  flex-wrap: wrap;
+}
+.series-card {
+  padding: 0 12px;
+  width: 25%;
+  margin-bottom: 80px;
+  @include pad {
+    width: 50%;
+    margin-bottom: 40px;
+    &:nth-child(11),
+    &:nth-child(12) {
+      margin-bottom: 80px;
+    }
+  }
+  @include mobile-large {
+    width: 100%;
+    margin-bottom: 24px;
+    &:nth-child(12) {
+      margin-bottom: 64px;
+    }
+  }
+}
+
+.seriestype-title {
+  text-align: center;
+  margin: 80px -12px 32px -12px;
+
+  @include mobile-large {
+    font-size: 24px;
+    margin: 40px 12px 32px 12px;
+  }
+}
+
+.series-color1 {
+  width: 24px;
+  height: 24px;
+  background-color: #5f3e2d;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.series-color2 {
+  width: 24px;
+  height: 24px;
+  background-color: #b75929;
+  border-radius: 4px;
+}
+
+.primary-color {
+  color: $primary;
+  font-weight: bold;
+}
+
+.page-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  li {
+    a {
+      border: 1px solid #555555;
+      padding: 12px 16px;
+      color: #555555;
+      font-size: 18px;
+      display: inline-block;
+      &:hover {
+        background-color: black;
+        color: #ffff;
+      }
+      @include mobile-large {
+        font-size: 16px;
+      }
+    }
+    &:nth-child(1) > a,
+    &:nth-child(7) > a {
+      font-size: 19px;
+      &:hover {
+        background-color: #f2f2f2;
+        color: #555555;
+      }
+      @include mobile-large {
+        font-size: 16px;
+      }
+    }
+  }
+}
